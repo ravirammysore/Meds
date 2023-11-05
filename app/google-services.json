@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517047629725",
+    "project_id": "meds-caec8",
+    "storage_bucket": "meds-caec8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517047629725:android:0c22a66c728330c6ba2174",
+        "android_client_info": {
+          "package_name": "com.gsss.meds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKGlI0uGMXsgcDeq_FDSdB1uuUcDtasU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meds"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+        <!-- Headers -->
+        <TextView android:text="Time" android:textSize="18sp"/>
+        <TextView android:text="Taken" android:textSize="18sp"/>
+
+        <!-- Morning -->
+        <TextView android:text="Morning" android:textSize="18sp"/>
+        <CheckBox android:id="@+id/cb_morning" />
+
+        <!-- Afternoon -->
+        <TextView android:text="Afternoon" android:textSize="18sp"/>
+        <CheckBox android:id="@+id/cb_afternoon" />
+
+        <!-- Night -->
+        <TextView android:text="Night" android:textSize="18sp"/>
+        <CheckBox android:id="@+id/cb_night" />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Save"
+        android:onClick="onSaveButtonClick"/>
+
+</LinearLayout>
